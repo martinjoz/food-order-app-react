@@ -22,6 +22,8 @@ const Form = (props) => {
     }
     console.log(name + "___--___" + age);
     props.items(name, age);
+    ageRef.current.value = "";
+    nameRef.current.value = "";
 
     // setName("");
     // setAge("");
