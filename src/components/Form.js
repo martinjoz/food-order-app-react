@@ -19,6 +19,7 @@ const Form = (props) => {
     if (+age < 1) {
       console.log("Age Must Be Greater Than 1");
       return;
+      //functions ends
     }
     console.log(name + "___--___" + age);
     props.items(name, age);
